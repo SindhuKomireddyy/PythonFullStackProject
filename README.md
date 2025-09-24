@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 -go to the SQL Editor in your Supabase dashboard
 -run this SQL command:
-
+    
 ```sql
 create table if not exists products (
     id serial primary key,                 -- auto-increment product ID
@@ -86,3 +86,59 @@ create table if not exists reviews (
     is_flagged boolean default false               -- suspicious review flag
 );
 ```
+
+3. **Get Your credentials:
+### 4.configure Environment Variables
+
+1. Create a `.env` file in the project root
+2. Add your supabase credentials to `.env`:
+SUPABASE_URL="https://lmrokoumgaepcjmxwxwp.supabase.co"
+SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxtcm9rb3VtZ2FlcGNqbXh3eHdwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwODI0MTAsImV4cCI6MjA3MzY1ODQxMH0.Ym5VurS4gNRqQEG9UzTRXwzvjOba6ZqzsWS3vs60CIM
+
+
+### 5.Run the Application
+
+## Streamlit Frontend
+Streamlit run frontend/app.py
+The app will open in your browser at `http://localhost:8501`
+
+## FASTAPI Backend
+
+cd api
+python main.py
+The API will be available at `http://localhost:8000`
+
+## How to use
+## Technologies Used
+-**Frontend**:Streamlit(python web framework)
+-**Backend**: FASTAPI (python rest api framework) 
+-**Database**:Supabase (PostgresSQL-based backend-as-a-service)
+-**Language**:python 3.8++
+
+### Key Components
+
+1. **`src/db.py`**:Database operations
+    -handles all CRUD operations with supabase
+2. **`src/logic.py`**:Business logic
+    -Task validation and preprocessing
+
+## troubleshooting
+
+## Common Issues
+
+1. **"Module not found" errors**
+    -make sure you've installed all dependencies:`pip install -r requirements.txt`
+    -check that you are running commands from the current directory
+
+## Future enhancements
+Ideas for extending this project:
+
+
+## Support
+if you encounter any issues or hqave questions:
+mail id:sindhukomireddy@gmail.com
+mobile no:7672049446
+
+
+
+
