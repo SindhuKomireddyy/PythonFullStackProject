@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 -go to the SQL Editor in your Supabase dashboard
 -run this SQL command:
-    
+
 ```sql
 create table if not exists products (
     id serial primary key,                 -- auto-increment product ID
@@ -93,7 +93,7 @@ create table if not exists reviews (
 1. Create a `.env` file in the project root
 2. Add your supabase credentials to `.env`:
 SUPABASE_URL="https://lmrokoumgaepcjmxwxwp.supabase.co"
-SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxtcm9rb3VtZ2FlcGNqbXh3eHdwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwODI0MTAsImV4cCI6MjA3MzY1ODQxMH0.Ym5VurS4gNRqQEG9UzTRXwzvjOba6ZqzsWS3vs60CIM
+SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxtcm9rb3VtZ2FlcGNqbXh3eHdwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwODI0MTAsImV4cCI6MjA3MzY1ODQxMH0.Ym5VurS4gNRqQEG9UzTRXwzvjOba6ZqzsWS3vs60CIM"
 
 
 ### 5.Run the Application
